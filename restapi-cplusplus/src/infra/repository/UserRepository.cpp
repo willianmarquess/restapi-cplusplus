@@ -50,3 +50,13 @@ void UserRepository::deleteById(std::string id) {
         }
     }
 }
+
+std::optional<User> UserRepository::getByEmail(std::string email) {
+    for (auto& user : InMemoryDB::users)
+    {
+        if (user.getEmail() == email) {
+            return user;
+        }
+    }
+    return {};
+}

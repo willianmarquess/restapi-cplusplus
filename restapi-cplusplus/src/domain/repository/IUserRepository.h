@@ -12,4 +12,5 @@ public:
     virtual std::optional<User> getUserById(std::string id) = 0;
     virtual User& update(User& user) = 0;
     virtual void deleteById(std::string id) = 0;
+    virtual std::optional<User> getByEmail(std::string email) = 0;
 };

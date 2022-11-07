@@ -16,4 +16,5 @@ public:
     std::optional<User> getUserById(std::string id);
     User& update(User& user);
     void deleteById(std::string id);
+    std::optional<User> getByEmail(std::string email);
 };
