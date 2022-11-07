@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{77502ff9-6460-41f1-bc5b-aa57581588f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\domain">
+      <UniqueIdentifier>{02aad81e-ff23-4bce-a6be-3d3074674aaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\app">
+      <UniqueIdentifier>{da858d15-2c6b-471e-a962-cb72610fcc60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\infra">
+      <UniqueIdentifier>{5701be31-c7e2-446a-ac0d-577c01177471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\domain\entity">
+      <UniqueIdentifier>{263f6816-b018-4e7c-9d5f-602f1f233bfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\domain\repository">
+      <UniqueIdentifier>{e2270070-e563-4393-a087-0b2afbd61a29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\infra\repository">
+      <UniqueIdentifier>{5c832890-ffff-4e55-a594-2a57eba91e78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\app\input">
+      <UniqueIdentifier>{ab79c030-c531-4137-a335-620690614ece}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\app\output">
+      <UniqueIdentifier>{027dbc5a-fbf9-4f72-be78-ea4d1023b027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\app\mapper">
+      <UniqueIdentifier>{a024e78e-90b5-4871-9a2b-6f5fb09074e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\app\usecase">
+      <UniqueIdentifier>{9fa467bc-77a3-4bd6-8862-1f274f99cb2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\presentation">
+      <UniqueIdentifier>{0da12af2-3786-4c33-bdd4-429f3c5b08ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\presentation\factory">
+      <UniqueIdentifier>{a43f4c2c-57c3-45a5-9018-194eea49aaa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\presentation\controller">
+      <UniqueIdentifier>{d7b00fb4-90d0-4fac-a485-406a47e2ac57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\presentation\controller\request">
+      <UniqueIdentifier>{64a4a1bc-07cf-4318-ab12-3ab60a5a1125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\presentation\controller\response">
+      <UniqueIdentifier>{6f98bfb0-d99e-4c4e-a757-48a2ece59f1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\infra\database">
+      <UniqueIdentifier>{2e5cce6b-8cc9-4238-a7aa-ee2926f7d2ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\shared">
+      <UniqueIdentifier>{1e84263a-8abb-4d84-b9d3-0c9d90aaa544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\shared\error">
+      <UniqueIdentifier>{e677d1f3-ebe4-4883-a168-a94ce1b02964}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\shared\util">
+      <UniqueIdentifier>{31c35a15-4aa0-4b6a-80ae-57baf2da6f79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\presentation\controller\helper">
+      <UniqueIdentifier>{a5498024-64fd-493e-ad3d-168399407f5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\presentation\controller\mapper">
+      <UniqueIdentifier>{500e439a-df7a-4668-85d8-382d96d3c48c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\domain\entity\User.cpp">
+      <Filter>src\domain\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\infra\repository\UserRepository.cpp">
+      <Filter>src\infra\repository</Filter>
+    </ClCompile>
+    <ClCompile Include="src\app\input\CreateUserInput.cpp">
+      <Filter>src\app\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\app\output\UserOutput.cpp">
+      <Filter>src\app\output</Filter>
+    </ClCompile>
+    <ClCompile Include="src\app\mapper\UserMapper.h">
+      <Filter>src\app\mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\app\usecase\CreateUserUseCase.cpp">
+      <Filter>src\app\usecase</Filter>
+    </ClCompile>
+    <ClCompile Include="src\app\usecase\GetAllUsersUseCase.cpp">
+      <Filter>src\app\usecase</Filter>
+    </ClCompile>
+    <ClCompile Include="src\presentation\Server.cpp">
+      <Filter>src\presentation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\presentation\controller\UserController.cpp">
+      <Filter>src\presentation\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="src\infra\database\InMemoryDB.cpp">
+      <Filter>src\infra\database</Filter>
+    </ClCompile>
+    <ClCompile Include="src\app\usecase\GetUserByIdUseCase.cpp">
+      <Filter>src\app\usecase</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shared\error\ErrorBase.cpp">
+      <Filter>src\shared\error</Filter>
+    </ClCompile>
+    <ClCompile Include="src\app\input\UpdateUserInput.cpp">
+      <Filter>src\app\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\app\usecase\UpdateUserUseCase.cpp">
+      <Filter>src\app\usecase</Filter>
+    </ClCompile>
+    <ClCompile Include="src\app\usecase\DeleteUserUseCase.cpp">
+      <Filter>src\app\usecase</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\domain\entity\User.h">
+      <Filter>src\domain\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="src\domain\repository\IUserRepository.h">
+      <Filter>src\domain\repository</Filter>
+    </ClInclude>
+    <ClInclude Include="src\infra\repository\UserRepository.h">
+      <Filter>src\infra\repository</Filter>
+    </ClInclude>
+    <ClInclude Include="src\app\input\CreateUserInput.h">
+      <Filter>src\app\input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\app\output\UserOutput.h">
+      <Filter>src\app\output</Filter>
+    </ClInclude>
+    <ClInclude Include="src\app\usecase\ICreateUserUseCase.h">
+      <Filter>src\app\usecase</Filter>
+    </ClInclude>
+    <ClInclude Include="src\app\usecase\IGetAllUsersUseCase.h">
+      <Filter>src\app\usecase</Filter>
+    </ClInclude>
+    <ClInclude Include="src\app\usecase\CreateUserUseCase.h">
+      <Filter>src\app\usecase</Filter>
+    </ClInclude>
+    <ClInclude Include="src\app\usecase\GetAllUsersUseCase.h">
+      <Filter>src\app\usecase</Filter>
+    </ClInclude>
+    <ClInclude Include="src\presentation\Server.h">
+      <Filter>src\presentation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\presentation\factory\UserControllerFactory.h">
+      <Filter>src\presentation\factory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\presentation\controller\response\Response.h">
+      <Filter>src\presentation\controller\response</Filter>
+    </ClInclude>
+    <ClInclude Include="src\presentation\controller\request\CreateUserRequest.h">
+      <Filter>src\presentation\controller\request</Filter>
+    </ClInclude>
+    <ClInclude Include="src\presentation\controller\IUserController.h">
+      <Filter>src\presentation\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="src\presentation\controller\UserController.h">
+      <Filter>src\presentation\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="src\infra\database\InMemoryDB.h">
+      <Filter>src\infra\database</Filter>
+    </ClInclude>
+    <ClInclude Include="src\app\usecase\IGetUserByIdUseCase.h">
+      <Filter>src\app\usecase</Filter>
+    </ClInclude>
+    <ClInclude Include="src\app\usecase\GetUserByIdUseCase.h">
+      <Filter>src\app\usecase</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shared\error\ErrorBase.h">
+      <Filter>src\shared\error</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shared\error\NotFoundError.h">
+      <Filter>src\shared\error</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shared\util\InstanceOf.h">
+      <Filter>src\shared\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\presentation\controller\helper\HttpHelper.h">
+      <Filter>src\presentation\controller\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\presentation\controller\response\ErrorResponse.h">
+      <Filter>src\presentation\controller\response</Filter>
+    </ClInclude>
+    <ClInclude Include="src\presentation\controller\mapper\UserPresentationMapper.h">
+      <Filter>src\presentation\controller\mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\presentation\controller\mapper\SharedMapper.h">
+      <Filter>src\presentation\controller\mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\app\usecase\IUpdateUserUseCase.h">
+      <Filter>src\app\usecase</Filter>
+    </ClInclude>
+    <ClInclude Include="src\app\input\UpdateUserInput.h">
+      <Filter>src\app\input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\app\usecase\UpdateUserUseCase.h">
+      <Filter>src\app\usecase</Filter>
+    </ClInclude>
+    <ClInclude Include="src\presentation\controller\request\UpdateUserRequest.h">
+      <Filter>src\presentation\controller\request</Filter>
+    </ClInclude>
+    <ClInclude Include="src\presentation\controller\request\GetByIdUserRequest.h">
+      <Filter>src\presentation\controller\request</Filter>
+    </ClInclude>
+    <ClInclude Include="src\presentation\controller\request\DeleteUserRequest.h">
+      <Filter>src\presentation\controller\request</Filter>
+    </ClInclude>
+    <ClInclude Include="src\app\usecase\IDeleteUserUseCase.h">
+      <Filter>src\app\usecase</Filter>
+    </ClInclude>
+    <ClInclude Include="src\app\usecase\DeleteUserUseCase.h">
+      <Filter>src\app\usecase</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shared\util\uuid.h">
+      <Filter>src\shared\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
