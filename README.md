@@ -26,4 +26,4 @@
 5. execute command: .\restapi-cplusplus.exe
 
 ## Framework/libs used in project
-* CROWC++ (https://crowcpp.org/master/)
+* CROW C++ (https://crowcpp.org/master/)
