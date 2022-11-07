@@ -221,5 +221,8 @@
     <ClInclude Include="src\shared\util\uuid.h">
       <Filter>src\shared\util</Filter>
     </ClInclude>
+    <ClInclude Include="src\shared\error\BusinessError.h">
+      <Filter>src\shared\error</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

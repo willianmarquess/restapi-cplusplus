@@ -67,6 +67,7 @@
     <ClInclude Include="src\presentation\controller\UserController.h" />
     <ClInclude Include="src\presentation\factory\UserControllerFactory.h" />
     <ClInclude Include="src\presentation\Server.h" />
+    <ClInclude Include="src\shared\error\BusinessError.h" />
     <ClInclude Include="src\shared\error\ErrorBase.h" />
     <ClInclude Include="src\shared\error\NotFoundError.h" />
     <ClInclude Include="src\shared\util\InstanceOf.h" />
