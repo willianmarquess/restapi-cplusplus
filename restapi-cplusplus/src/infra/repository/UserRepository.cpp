@@ -6,7 +6,7 @@ UserRepository::UserRepository()
 }
 UserRepository::~UserRepository()
 {
-    std::cout << "user repository destroyed";
+
 }
 
 User& UserRepository::create(User& user)
