@@ -20,12 +20,6 @@ public:
 		return response;
 	}
 
-	template<class T>
-	static Response<T> noContent(T& output) {
-		Response<T> response(output, 204);
-		return response;
-	}
-
 	static Response<ErrorResponse> error(std::exception& e) {
 		ErrorResponse errorResponse;
 		Response<ErrorResponse> response;
