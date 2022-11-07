@@ -5,6 +5,6 @@
 
 int main() {
     Server server;
-    server.configRoutes().start(18080);
+    server.configRoutes().start(3333);
 	return 0;
 }
