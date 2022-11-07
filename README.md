@@ -8,6 +8,7 @@
 * vcpkg to add external libraries
 * msbuild to run in cmd
 * visual studio (IDE) to open solution, build and run
+* use this tutorial to config visual studio with c++ support (https://learn.microsoft.com/en-us/cpp/build/vscpp-step-0-installation?view=msvc-170)
 
 ## Build and run (visual studio)
 
