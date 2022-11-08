@@ -10,12 +10,14 @@
 * visual studio (IDE) to open solution, build and run
 * use this tutorial to config visual studio with c++ support (https://learn.microsoft.com/en-us/cpp/build/vscpp-step-0-installation?view=msvc-170)
 
+**Project uses C++20
+
 ## Build and run (visual studio)
 
 1. install crow framework using: vcpkg install crow
 2. open solution in visual studio
 3. build project
-4. run open main.cpp and change default port as you wish
+4. run application
 
 ## Build and run (CommandLine)
 
